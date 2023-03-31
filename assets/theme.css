@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
 /**
  * ----------------------------------------------------------------------------------------------
  * This is a variation of Normalize.css (http://necolas.github.io/normalize.css/)
@@ -1073,7 +1075,7 @@ html {
 }
 
 body {
-  font-family: var(--text-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--text-font-weight);
   font-style: var(--text-font-style);
   color: var(--text-color);
@@ -1133,7 +1135,7 @@ body {
 }
 
 .Heading {
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   color: var(--heading-color);
@@ -1455,12 +1457,13 @@ input.spr-button-primary,
   padding: 14px 28px;
   line-height: normal;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 45px;
+  overflow: hidden;
   text-transform: uppercase;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
   text-align: center;
   letter-spacing: 0.2em;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   background-color: transparent;
@@ -2712,6 +2715,7 @@ body:not(.is-tabbing) .flickity-enabled:focus {
 }
 
 .Form__Submit {
+  font-family: 'Futura';
   display: block;
   margin-top: 20px;
 }
@@ -2722,7 +2726,7 @@ body:not(.is-tabbing) .flickity-enabled:focus {
   padding-bottom: 8px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 11px));
   text-transform: uppercase;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: 0.2em;
@@ -2882,7 +2886,7 @@ select::-ms-expand {
   padding-right: 15px;
   background: transparent;
   border: none;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   font-size: inherit;
@@ -2911,7 +2915,7 @@ select::-ms-expand {
   padding: 2px 18px 2px 0;
   background: transparent;
   border: none;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   text-transform: uppercase;
@@ -3514,7 +3518,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .FeaturedMap__Store {
   display: block;
   margin-bottom: 1.2em;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
 }
@@ -4438,7 +4442,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
   text-align: center;
   letter-spacing: 0.2em;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   background: var(--button-background);
@@ -5150,7 +5154,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Pagination {
   margin: 60px 0;
   text-align: center;
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
@@ -5493,7 +5497,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Rte h4,
 .Rte h5,
 .Rte h6 {
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   color: var(--heading-color);
@@ -5735,7 +5739,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 .Table th,
 .Rte table th {
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   text-transform: uppercase;
@@ -7170,6 +7174,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .ProductItem__Title.Heading {
   margin-bottom: 12px;
+  font-family: 'Prata', serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.36;
@@ -10194,7 +10199,7 @@ shopify-payment-terms {
   margin-bottom: 0;
 }
 #shopify-product-reviews .spr-review-header-title {
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 11px));
@@ -11286,7 +11291,7 @@ shopify-payment-terms {
 .Timeline__Nav {
   position: relative;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 11px));
-  font-family: var(--heading-font-family);
+  font-family: 'Prata', serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: 0.2em;
@@ -11466,7 +11471,7 @@ shopify-payment-terms {
   align-items: center;
   width: 100%;
   padding: 70px 50px 50px;
-  background-color: #F1F1F1;
+  background-color: #d6cfc8;
 }
 
 .section-iwf__wrapper {
@@ -11543,7 +11548,7 @@ shopify-payment-terms {
   align-items: center;
   width: 100%;
   padding: 75px 0 50px;
-  background-color: #FFFFFF;
+  background-color: #f5f5f5;
 }
 
 .section-iwc__wrapper {
@@ -11627,7 +11632,7 @@ shopify-payment-terms {
   align-items: center;
   width: 100%;
   padding: 75px 0;
-  background-color: #FFFFFF;
+  background-color: #f5f5f5;
 }
 
 .section-cai__wrapper {
@@ -11637,7 +11642,7 @@ shopify-payment-terms {
   width: 100%;
   max-width: 1010px;
   padding: 30px 30px 40px 60px;
-  background-color: #F1F1F1;
+  background-color: #d6cfc8;
 }
 
 .section-cai__wrapper .cai-item {
@@ -11712,7 +11717,7 @@ shopify-payment-terms {
   align-items: center;
   width: 100%;
   padding: 0 17px 75px;
-  background-color: #FFFFFF;
+  background-color: #f5f5f5;
 }
 
 .section-lb__wrapper {
@@ -11782,7 +11787,7 @@ shopify-payment-terms {
   align-items: center;
   width: 100%;
   padding: 80px 50px 140px;
-  background-color: #FFFFFF;
+  background-color: #f5f5f5;
 }
 
 .section-cc__wrapper {
@@ -11840,7 +11845,7 @@ shopify-payment-terms {
   align-items: center;
   width: 100%;
   padding: 0 50px 85px;
-  background-color: #FFFFFF;
+  background-color: #f5f5f5;
 }
 
 .section-tac__wrapper {
@@ -12274,6 +12279,7 @@ shopify-payment-terms {
 }
 
 [data-section-type="product"] .HorizontalList__Item .x-value {
+  font-family: 'Futura';
   font-size: 16px;
   font-weight: 500;
   line-height: 1.38;
@@ -12327,7 +12333,8 @@ shopify-payment-terms {
   width: 285px;
   height: 50px;
   border: 1px solid #000000;
-  border-radius: 1px;
+  border-radius: 45px;
+  font-family: 'Futura';
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -12357,7 +12364,7 @@ shopify-payment-terms {
   min-height: unset !important;
   margin: 25px 0;
   padding: 30px;
-  background-color: #F1F1F1;
+  background-color: #d6cfc8;
 }
 
 [data-section-type="product"] .Product__Aside .Product__Tabs {
@@ -12410,6 +12417,7 @@ shopify-payment-terms {
   padding: 0 20px;
   border: 1px solid #AEAEAE;
   border-radius: 1px;
+  font-family: 'Futura';
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -12450,6 +12458,7 @@ shopify-payment-terms {
 }
 
 [data-section-type="product"] .HorizontalList__Item .SizeSwatch__Radio:checked+.SizeSwatch {
+  font-family: 'Futura';
   border-color: #504E4E;
 }
 
@@ -12539,7 +12548,7 @@ shopify-payment-terms {
 }
 
 [data-section-type="product-recommendations"] {
-  background-color: #F1F1F1;
+  background-color: #d6cfc8;
 }
 
 [data-section-type="product-recommendations"] .SectionHeader__Heading,
@@ -12551,6 +12560,7 @@ shopify-payment-terms {
   text-align: left;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+  font-family: 'Prata', serif;
   color: #022222;
 }
 
@@ -12708,7 +12718,7 @@ shopify-payment-terms {
   display: flex;
   align-items: center;
   gap: 60px;
-  font-family: 'DIN Alternate';
+  font-family: 'Futura';
   font-weight: 700;
   font-size: 12px;
   line-height: 1;
@@ -12764,6 +12774,7 @@ shopify-payment-terms {
   align-items: center;
   gap: 5px;
   white-space: nowrap;
+  font-family: 'Prata', serif;
 }
 
 #section-header .Header__Icon.Icon-Wrapper.Icon-Wrapper--clickable {
@@ -12778,7 +12789,7 @@ shopify-payment-terms {
 }
 
 #section-header .Header__Icon.Icon-Wrapper.Icon-Wrapper--clickable .x-title {
-  font-family: 'Avenir Next';
+  font-family: 'Prata', serif;
   font-weight: 400;
   font-size: 14px;
   color: #022222;
@@ -12883,7 +12894,7 @@ shopify-payment-terms {
   margin: 0 auto;
   padding: 20px 30px;
   border: 1px solid rgba(0, 0, 0, 0.23);
-  border-radius: 1px;
+  border-radius: 45px;
   font-family: 'Avenir Next';
   font-weight: 500;
   font-size: 16px;
@@ -12972,7 +12983,7 @@ shopify-payment-terms {
 
 .section-hero__title,
 .section-hero__subtitle {
-  font-family: 'Avenir Next';
+  font-family: 'Prata', serif;
   color: #FFFFFF;
 }
 
@@ -13005,7 +13016,7 @@ shopify-payment-terms {
   width: 100%;
   max-width: 300px;
   height: 60px;
-  border-radius: 1px;
+  border-radius: 45px;
   font-family: 'Futura';
   font-weight: 500;
   font-size: 16px;
@@ -13054,7 +13065,7 @@ shopify-payment-terms {
   width: 100%;
   min-height: 715px;
   padding: 40px 90px 45px;
-  background-color: #F1F1F1;
+  background-color: #d6cfc8;
 }
 
 .section-lifestyle__block .title,
@@ -13065,7 +13076,7 @@ shopify-payment-terms {
 
 .section-lifestyle__block .title {
   margin-bottom: 15px;
-  font-family: 'Futura';
+  font-family: 'Prata', serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.33;
@@ -13073,7 +13084,7 @@ shopify-payment-terms {
 }
 
 .section-lifestyle__block .subtitle {
-  font-family: 'Avenir Next';
+  font-family: 'Prata', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
@@ -13121,7 +13132,7 @@ shopify-payment-terms {
   height: 65px;
   width: 100%;
   max-width: 525px;
-  border-radius: 1px;
+  border-radius: 45px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.33em;
@@ -13145,7 +13156,7 @@ shopify-payment-terms {
   width: 100%;
   max-width: 525px;
   height: 65px;
-  border-radius: 1px;
+  border-radius: 45px;
   font-family: 'Futura';
   font-weight: 500;
   font-size: 16px;
@@ -13195,14 +13206,14 @@ shopify-payment-terms {
 
 .section-iwd__block .title {
   margin-bottom: 15px;
-  font-family: 'Futura';
+  font-family: 'Prata', serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
 }
 
 .section-iwd__block .description {
-  font-family: 'Avenir Next';
+  font-family: 'Prata', serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.44;
